@@ -2,6 +2,10 @@
 Goal is to get a modern looking GUI running on some of the CYD boards.  
 It's prefereed to create the GUI in a GUI tool on the PC.
 
+# Hardware
+- ESP32-3248S035C FN:1068
+- JC4827W543C FN:1101
+
 # LVGL CYD
 - [LVGL drivers demo](https://github.com/rzeldent/esp32-smartdisplay-demo)
   This example here is based on this.  
