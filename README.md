@@ -36,3 +36,4 @@ pio run -e JC4827W543C
 # Links
 - dasdgw yoradio has support for the display but does currently not compile
 - https://github.com/calint/platformio-bam shows valid graphics but uses another touch controller
+- [FAQ EEZ Studio with LVGL](https://github.com/eez-open/studio/wiki/FAQ)
