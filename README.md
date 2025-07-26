@@ -13,8 +13,8 @@ It's prefereed to create the GUI in a GUI tool on the PC.
 - [Board descrptions](https://github.com/rzeldent/platformio-espressif32-sunton)
 
 # GUI tool
-https://github.com/eez-open/studio
-https://github.com/eez-open/eez-framework
+- https://github.com/eez-open/studio
+- https://github.com/eez-open/eez-framework
 ## Run in Ubuntu
 - download latest AppImage from https://github.com/eez-open/studio/releases
 - make the AppImage executable and run as described in README
@@ -25,7 +25,7 @@ chmod +x ./EEZ-Studio-0.23.2.AppImage
 ```
 
 # Workaround
-Currently there is a bug in eez-framework.  
+Currently there is a [bug](https://github.com/eez-open/eez-framework/issues/27) in eez-framework.  
 After building the gui in EEZ Studio you have the fix the created source code.
 ```
 sed -i 's/LVGL_VERSION_MINOR >= 3/LVGL_VERSION_MINOR > 3/g' src/ui/eez-flow.cpp
