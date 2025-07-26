@@ -1,3 +1,7 @@
+# Purpose/Reason for this project
+Goal is to get a modern looking GUI running on some of the CYD boards.  
+It's prefereed to create the GUI in a GUI tool on the PC.
+
 # LVGL CYD
 - [LVGL drivers demo](https://github.com/rzeldent/esp32-smartdisplay-demo)
   This example here is based on this.  
